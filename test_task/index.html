@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="форма, страница с формой">
+    <link rel="shortcut icon" href="#" type="image/x-icon">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Form</title>
+</head>
+
+<body>
+    <main class="main">
+        <section class="">
+            <div class="container">
+                <div class="modal">
+                    <div class="modal__left">
+                        <a class="modal__logo" href="#" aria-label="ссылка логотипа">
+                            <img src="img/logo.svg" alt="logo">
+                        </a>
+                    </div>
+                    <div class="modal__right">
+                        <fieldset>
+                            <legend class="modal__title">Get iintoo it today</legend>
+                            <p class="modal__subtitle--top">There is no charge or obligation upon registration.</p>
+                            <div class="modal__buttons" aria-label="верхний блок с кнопками">
+                                <button class="modal__buttons--left" type="button"
+                                    aria-label="перейти на страницу Facebook">Register with Facebook</button>
+                                <button class="modal__buttons--right" type="button"
+                                    aria-label="перейти на страницу Linkedin">Register with Linkedin</button>
+                            </div>
+                            <div class="modal__separator"
+                                aria-label="разделитель между верхним блоком с кнопками и формой регистрации">
+                                <div class="modal__separator-line"></div>
+                                <span class="modal__separator--center">OR</span>
+                                <div class="modal__separator-line"></div>
+                            </div>
+                            <form class="modal__form form" action="">
+                                <div class="form__inputs">
+                                    <label class="form__label">
+                                        <span class="form__label--prompt">Email</span>
+                                        <input class="form__input" type="email" aria-label="введите свой email">
+                                    </label>
+                                    <label class="form__label">
+                                        <span class="form__label--prompt">Phone</span>
+                                        <input class="form__input" type="tel" aria-label="введите свой номер телефона">
+                                    </label>
+                                </div>
+                                <h3 class="form__title">What type of investor are you?</h3>
+                                <p class="form__subtitle">Select the type of you are below.</p>
+                                <ul class="form__list">
+                                    <li class="form__item">
+                                        <label>
+                                            <input class="form__radio" name="info" value="individual" type="radio">
+                                            <span class="form__radio-btn"></span>
+                                            Individual
+                                            <span class="form__tultip tultip">
+                                                <div class="tultip__marker" tabindex="0"
+                                                    data-text="I am a natural person investing on my own behalf
+                                                     as a sole owner, joint tenant, or tenant in common.">
+                                                </div>
+                                            </span>
+                                        </label>
+                                    </li>
+                                    <li class="form__item">
+                                        <label>
+                                            <input class="form__radio" name="info" value="business" type="radio">
+                                            <span class="form__radio-btn"></span>
+                                            Business
+                                            <span class="form__tultip tultip">
+                                                <div class="tultip__marker" tabindex="0"
+                                                    data-text="I am a natural person investing on my own behalf
+                                                     as a sole owner, joint tenant, or tenant in common.">
+                                                </div>
+                                            </span>
+                                        </label>
+                                    </li>
+                                    <li class="form__item">
+                                        <label>
+                                            <input class="form__radio" name="info" value="ira" type="radio">
+                                            <span class="form__radio-btn"></span>
+                                            IRA
+                                            <span class="form__tultip tultip">
+                                                <div class="tultip__marker" tabindex="0"
+                                                    data-text="I am a natural person investing on my own behalf
+                                                     as a sole owner, joint tenant, or tenant in common.">
+                                                </div>
+                                            </span>
+                                        </label>
+                                    </li>
+                                    <li class="form__item">
+                                        <label>
+                                            <input class="form__radio" name="info" value="trust" type="radio">
+                                            <span class="form__radio-btn"></span>
+                                            Trust
+                                            <span class="form__tultip tultip">
+                                                <div class="tultip__marker" tabindex="0"
+                                                    data-text="I am a natural person investing on my own behalf
+                                                     as a sole owner, joint tenant, or tenant in common.">
+                                                </div>
+                                            </span>
+                                        </label>
+                                    </li>
+                                </ul>
+                                <div class="form__check-box">
+                                    <label class="form__footer-label">
+                                        <input class="form__input-check" type="checkbox">
+                                        I agree to the terms and receiving notifications from iintoo 
+                                        <a href="#" class="form__footer-link" aria-label="Смотреть все условия">View full terms</a>
+                                    </label>
+                                </div>
+                                <div class="form__footer">
+                                    <button class="form__button" type="submit" aria-label="Создать аккаунт">Create Account</button>
+                                </div>
+                            </form>
+                        </fieldset>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+</body>
+
+</html>
